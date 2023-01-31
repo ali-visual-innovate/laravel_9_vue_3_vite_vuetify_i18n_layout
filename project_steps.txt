@@ -1,0 +1,7 @@
+1- created new laravel 9 project
+2- installed @vitejs/plugin-vue as dependency
+3- edited vite.config.js
+4- npm add vuetify@^3.1.2
+5- edit app.js file to include vuetify
+6-
+
