@@ -15,6 +15,7 @@
     "dependencies": {
         "@intlify/unplugin-vue-i18n": "^0.8.1",
         "@vitejs/plugin-vue": "^4.0.0",
+        "pinia": "^2.0.29",
         "vite-plugin-vuetify": "^1.0.2",
         "vue": "^3.2.36",
         "vue-i18n": "^9.2.2",
