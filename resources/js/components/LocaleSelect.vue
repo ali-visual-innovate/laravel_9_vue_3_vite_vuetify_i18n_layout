@@ -19,6 +19,7 @@ const changeLocale = () => {
 <template>
     <v-btn @click="changeLocale">
       {{ locale }}
+      <v-icon icon="mdi-flag" class="mx-2" />
     </v-btn>
 </template>
 
