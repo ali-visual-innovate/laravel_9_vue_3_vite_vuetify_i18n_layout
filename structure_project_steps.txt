@@ -1,0 +1,44 @@
+1- created new laravel 9 project with vite
+2- composer install
+3- edited .env file with new database created 
+4- npm install
+5- installed @vitejs/plugin-vue as dependency vue 3
+6- edited vite.config.js to use vue plugin
+7- npm add vuetify@^3.1.2
+8- rename welcome.blade.php to index.blade.php
+9- rename app.js to main.js file to be included in index.blade.php
+10- edited vite.config.js to include main.js and main.css in laravel plugin
+11- added vuetify 3 -- edited main.js
+12- created App.vue - starting point in prespective of vue3
+13- installed icons material design default icons in vuetify 3
+14- installed vue-i18n plugin
+15- installed @intlify/unplugin-vue-i18n
+16- added VueI18nPlugin plugin helper to vite.config.js
+17- created plugins folder in resources/js
+18- added needed configuration in both plugins/i18n and plugins/vuetify
+19- imported both previous plugins in main.js
+20- created structure layout in main App.vue [
+    v-app,
+    v-locale-provider,
+    v-system-bar,
+    v-app-bar,
+    v-navigation-drawer,
+    v-main,
+    v-container,
+    v-footer
+    ]
+21- App.vue will be seprated in smaller components for organizing structure
+22- added dark theme with its switcher component
+23- to run project [
+        clone repo,
+        edit .env,
+        composer install,
+        php artisan key:generate,
+        npm install,
+        php artisan serve,
+        npm run dev
+    ]
+24- added pinia store ( instead of vuex ) official store for vue 3
+25- imported createPinia from 'pinia' in main.js
+26- created stores folder and created AuthUserStore.js in it. started implementing AuthUserStore
+27- composer require spatie/laravel-permission -- not done yet
