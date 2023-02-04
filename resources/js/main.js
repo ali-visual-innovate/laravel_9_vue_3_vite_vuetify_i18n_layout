@@ -3,8 +3,7 @@ import "./bootstrap";
 import { createApp } from "vue";
 import App from "./App.vue";
 
-import { createPinia } from "pinia";
-
+import pinia from "./stores/store";
 // Vuetify
 import i18n from "./plugins/i18n";
 import vuetify from "./plugins/vuetify";
@@ -12,9 +11,9 @@ import vuetify from "./plugins/vuetify";
 //import vueitfy icons
 import "@mdi/font/css/materialdesignicons.css";
 
+const app = createApp(App)
 
-createApp(App)
-    .use(createPinia())
-    .use(i18n)
-    .use(vuetify)
-    .mount("#app");
+app.use(pinia)
+app.use(i18n)
+app.use(vuetify)
+app.mount("#app");
