@@ -14,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 // changed welcome blade file to index blade file
-Route::get('/', function () {
-    return view('index');
-});
+// Route::get('/', function () {
+//     return view('index');
+// });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

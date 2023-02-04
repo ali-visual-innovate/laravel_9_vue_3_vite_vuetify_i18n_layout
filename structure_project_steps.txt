@@ -42,3 +42,18 @@
 25- imported createPinia from 'pinia' in main.js
 26- created stores folder and created AuthUserStore.js in it. started implementing AuthUserStore
 27- persisted local storage and pinia lang and rtl - with page refresh
+28- composer require laravel/ui
+29- php artisan ui vue --auth
+30- npm i vue-loader
+31- rearranged vite.config and app.js and app.scss app.blade.php 
+32- composer require laravel/sanctum
+33- updated config\sanctum.php
+34- .env file updated SANCTUM_STATEFUL_DOMAINS=localhost:<PORT NUMBER>
+35- SESSION_DRIVER=cookie
+36- CORS configuration
+37- php artisan migrate
+38- npm install vue-router
+
+https://techvblogs.com/blog/spa-authentication-laravel-9-sanctum-vue3-vite
+
+Step 15: Setup Frontend
