@@ -1,3 +1,6 @@
 export default {
-    hello: "مرحباً"
+    hello: "مرحباً",
+    myFiles: "ملفاتي",
+    sharedWithMe: "مشتركة",
+    starred: "مفضلة"
 }
