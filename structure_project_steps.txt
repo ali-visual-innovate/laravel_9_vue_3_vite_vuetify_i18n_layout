@@ -41,4 +41,4 @@
 24- added pinia store ( instead of vuex ) official store for vue 3
 25- imported createPinia from 'pinia' in main.js
 26- created stores folder and created AuthUserStore.js in it. started implementing AuthUserStore
-27- composer require spatie/laravel-permission -- not done yet
+27- persisted local storage and pinia lang and rtl - with page refresh
